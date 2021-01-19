@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body::before {
+    content: "";
+    background-image: url("../images/freshproduce.jpeg");
+    background-size: fit;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 60%;
+}
+
+form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: rgb(22, 22, 22);
+    border-radius: 25px;
+}
